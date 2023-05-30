@@ -106,73 +106,271 @@ jQuery(document).ready(function($){
                 </div>
                 <ul class="nav no-search">
                   <li class="nav-item"><a href="index.html">Home</a></li>
-                  <li class="nav-item"><a href="Team.html">Team</a></li>
-                  <li class="nav-item"><a href="Project.html">Project</a></li>
-                  <li class="nav-item"><a href="Parts.html">Parts</a></li>
-                  <li class="nav-item"><a href="Results.html">Results</a></li>
-                  <li class="nav-item"><a href="iHP.html">Human Practices</a></li>
+                  <li class="nav-item"><div class="dropdown">
+                    <button class="dropbtn">Team
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="Team.html">Team</a>
+                      <a href="Attribution.html">Attributions</a>
+                      <a href="Collaboration.html">Collaborations</a>
+                    </li>
+                  <li class="nav-item">
+                     <div class="dropdown">
+                    <button class="dropbtn">Project
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="Project/comm.html">Communication</a>
+                      <a href="Project/contribution.html">Contribution</a>
+                      <a href="Project/description.html">Description</a>
+                      <a href="Project/engineering.html">Engineering</a>
+                      <a href="Project/experiment.html">Experiments</a>
+                      <a href="Project/implementation.html">Implementation</a>
+                      <a href="Project/notebook.html">Notebook</a>
+                      <a href="Project/partnership.html">Partnership</a>
+                      <a href="Project/proof.html">Proof of Concept</a>                      
+                      <a href="Project/results.html">Results</a>
 
+                    
+                    </div>
+                  </div>
+                </li>
+                  <li class="nav-item"><a href="Parts.html">
+                    <div class="dropdown">
+                      <button class="dropbtn">Parts
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+
+                        <a href="Parts/partcollection.html">Parts Collection</a>
+                        <a href="Parts.html">Parts</a>
+                        <a href="Parts/Improve.html">Improve</a>                  
+                  </a></li>
+                  <li class="nav-item"><a href="Results.html">Safety</a></li>
+                  <li class="nav-item"><a href="iHP.html">Human Practices</a></li>
+                  <li class="nav-item"><a href="Results.html"></a></li>
                   
                 </ul>
               </nav>
             </div>
-            <section class="headline">
-              <h1>iGEM IISERTVM</h1>
-              <h3>Our Human Practices</h3>
-
-              <!--<img src = "oasys.png" class = "center" height = "160"  >-->
-
-            </section>
-            <section class="features">
-              <div class="feature-container">
-                <img src="oasys.png" alt="Flexbox Feature">
-                <h2>Depression Statistics</h2>
-                <p>blah blah</p>
-              </div>
-              <div class="feature-container">
-                <img src="oasys.png" alt="Flexbox Feature">
-                <h2>Blood Biomarkers</h2>
-                <p>GSalpha protein, miRNA and neurotransmitters</p>
-              </div>
-              <div class="feature-container">
-                <img src="oasys.png" alt="Flexbox Feature">
-                <h2>Novelty</h2>
-                <p>Click Chemistry, aptamers</p>
-              </div>
-            </section>
-          </div><footer id="svg-end" class="">
-            <div class="container">
-              <div class="row ">
-                <div class="">
-                  <h4 class=""><a href="#">Oasys</a></h4>
-                  <p>A depression diagnostics kit envisioned by iGEM IISER TVM 2023</p>
+            </div>
+            <div class="cointainer my-4 mx-4">
+              <div class="row">
+            
+                <div class="col-3">
+                  <ul class="list-group fixed-content" id="sidenav">
+                    <ul class="navbar-links">
+                      <li class="navbar-dropdown list-group-item list-group-item-action">
+                        <a href="#head1" style="color: black;">Heading - 1</a>
+                      </li>
+                      <li class="navbar-dropdown list-group-item list-group-item-action">
+                        <a href="#head2" style="color: black;">Heading - 2</a>
+                      </li>
+                      <li class="navbar-dropdown list-group-item list-group-item-action">
+                        <a href="#head3" style="color: black;">Heading - 3</a>
+                      </li>
+                      <li class="navbar-dropdown list-group-item list-group-item-action">
+                        <a href="#head4" style="color: black;">Heading - 4</a>
+                      </li>
+                      <li class="navbar-dropdown list-group-item list-group-item-action">
+                        <a href="#head5" style="color: black;">Heading - 5</a>
+                      </li>
+                      <li class="navbar-dropdown list-group-item list-group-item-action">
+                        <a href="#head6" style="color: black;">Heading - 6</a>
+                      </li>
+                      <li class="navbar-dropdown list-group-item list-group-item-action">
+                        <a href="#head7" style="color: black;">Heading - 7</a>
+                      </li>
+                    </ul>
+                  </ul>
                 </div>
-                <div class="">
-                  <h4 class="">Links</h4>
+            
+                <div data-bs-target="sidenav" data-bs-spy="scroll" class="col-9" style="padding-top: 20px">
+                  <div class="container " data-bs-spy="scroll" data-bs-offset="-200px">
+            
+                    <!--intro-->
+                    <hr class="line">
+                    <h1 id="head1" style="color: #002147">Heading - 1</h1>
+                    <hr class="line">
+                    <br>
+                    <p>
+            
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In non risus sollicitudin, pharetra orci non, cursus justo.
+                      Aenean pulvinar consequat est sit amet cursus. 
+                      In fermentum massa sit amet cursus mattis. 
+                      Integer eget tellus vitae nunc pulvinar sollicitudin. 
+                      Etiam vulputate lorem aliquet mi ullamcorper, id lobortis diam mollis. 
+                      Maecenas porta volutpat dui, at facilisis turpis. Nullam sed finibus ex. 
+                      Nam elementum nunc non massa imperdiet cursus. Suspendisse rutrum dignissim consectetur. 
+                      Praesent feugiat, lorem ac bibendum tempor, enim turpis blandit risus, rhoncus faucibus risus massa vel dui. 
+                      In vulputate orci ut mollis vehicula. Suspendisse sit amet rutrum arcu. 
+                      Integer a ante fermentum, rhoncus nibh vel, iaculis nisl.
+                       <a id="head2"></a>
+                    </p>
+                    <br>
+                    <hr class="line">
+                    <h1 id="head2" style="color: #002147">Heading - 2</h1>
+                    <hr class="line">
+                    <br>
+                    <p>
+            
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In non risus sollicitudin, pharetra orci non, cursus justo.
+                      Aenean pulvinar consequat est sit amet cursus. 
+                      In fermentum massa sit amet cursus mattis. 
+                      Integer eget tellus vitae nunc pulvinar sollicitudin. 
+                      Etiam vulputate lorem aliquet mi ullamcorper, id lobortis diam mollis. 
+                      Maecenas porta volutpat dui, at facilisis turpis. Nullam sed finibus ex. 
+                      Nam elementum nunc non massa imperdiet cursus. Suspendisse rutrum dignissim consectetur. 
+                      Praesent feugiat, lorem ac bibendum tempor, enim turpis blandit risus, rhoncus faucibus risus massa vel dui. 
+                      In vulputate orci ut mollis vehicula. Suspendisse sit amet rutrum arcu. 
+                      Integer a ante fermentum, rhoncus nibh vel, iaculis nisl.
+                       <a id="head2"></a>
+                    </p>
+                    <br>
+                    <hr class="line">
+                    <h1 id="head3" style="color: #002147">Heading - 3</h1>
+                    <hr class="line">
+                    <br>
+                    <p>
+            
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In non risus sollicitudin, pharetra orci non, cursus justo.
+                      Aenean pulvinar consequat est sit amet cursus. 
+                      In fermentum massa sit amet cursus mattis. 
+                      Integer eget tellus vitae nunc pulvinar sollicitudin. 
+                      Etiam vulputate lorem aliquet mi ullamcorper, id lobortis diam mollis. 
+                      Maecenas porta volutpat dui, at facilisis turpis. Nullam sed finibus ex. 
+                      Nam elementum nunc non massa imperdiet cursus. Suspendisse rutrum dignissim consectetur. 
+                      Praesent feugiat, lorem ac bibendum tempor, enim turpis blandit risus, rhoncus faucibus risus massa vel dui. 
+                      In vulputate orci ut mollis vehicula. Suspendisse sit amet rutrum arcu. 
+                      Integer a ante fermentum, rhoncus nibh vel, iaculis nisl.
+                       <a id="head3"></a>
+                    </p>
+                    <br>
+
+                    <hr class="line">
+                    <h1 id="head4" style="color: #002147">Heading - 4</h1>
+                    <hr class="line">
+                    <br>
+                    <p>
+            
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In non risus sollicitudin, pharetra orci non, cursus justo.
+                      Aenean pulvinar consequat est sit amet cursus. 
+                      In fermentum massa sit amet cursus mattis. 
+                      Integer eget tellus vitae nunc pulvinar sollicitudin. 
+                      Etiam vulputate lorem aliquet mi ullamcorper, id lobortis diam mollis. 
+                      Maecenas porta volutpat dui, at facilisis turpis. Nullam sed finibus ex. 
+                      Nam elementum nunc non massa imperdiet cursus. Suspendisse rutrum dignissim consectetur. 
+                      Praesent feugiat, lorem ac bibendum tempor, enim turpis blandit risus, rhoncus faucibus risus massa vel dui. 
+                      In vulputate orci ut mollis vehicula. Suspendisse sit amet rutrum arcu. 
+                      Integer a ante fermentum, rhoncus nibh vel, iaculis nisl.
+                      <a id="head4"></a>
+                    </p>
+                    <br>
+
+                    <hr class="line">
+                    <h1 id="head5" style="color: #002147">Heading - 5</h1>
+                    <hr class="line">
+                    <br>
+                    <p>
+            
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In non risus sollicitudin, pharetra orci non, cursus justo.
+                      Aenean pulvinar consequat est sit amet cursus. 
+                      In fermentum massa sit amet cursus mattis. 
+                      Integer eget tellus vitae nunc pulvinar sollicitudin. 
+                      Etiam vulputate lorem aliquet mi ullamcorper, id lobortis diam mollis. 
+                      Maecenas porta volutpat dui, at facilisis turpis. Nullam sed finibus ex. 
+                      Nam elementum nunc non massa imperdiet cursus. Suspendisse rutrum dignissim consectetur. 
+                      Praesent feugiat, lorem ac bibendum tempor, enim turpis blandit risus, rhoncus faucibus risus massa vel dui. 
+                      In vulputate orci ut mollis vehicula. Suspendisse sit amet rutrum arcu. 
+                      Integer a ante fermentum, rhoncus nibh vel, iaculis nisl.
+                      <a id="head5"></a>
+                    </p>
+                    <br>
+
+                    <hr class="line">
+                    <h1 id="head6" style="color: #002147">Heading - 6</h1>
+                    <hr class="line">
+                    <br>
+                    <p>
+            
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In non risus sollicitudin, pharetra orci non, cursus justo.
+                      Aenean pulvinar consequat est sit amet cursus. 
+                      In fermentum massa sit amet cursus mattis. 
+                      Integer eget tellus vitae nunc pulvinar sollicitudin. 
+                      Etiam vulputate lorem aliquet mi ullamcorper, id lobortis diam mollis. 
+                      Maecenas porta volutpat dui, at facilisis turpis. Nullam sed finibus ex. 
+                      Nam elementum nunc non massa imperdiet cursus. Suspendisse rutrum dignissim consectetur. 
+                      Praesent feugiat, lorem ac bibendum tempor, enim turpis blandit risus, rhoncus faucibus risus massa vel dui. 
+                      In vulputate orci ut mollis vehicula. Suspendisse sit amet rutrum arcu. 
+                      Integer a ante fermentum, rhoncus nibh vel, iaculis nisl.
+                      <a id="head6"></a>
+                    </p>
+                    <br>
+
+
+                    <hr class="line">
+                    <h1 id="head7" style="color: #002147">Heading - 7</h1>
+                    <hr class="line">
+                    <br>
+                    <p>
+            
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In non risus sollicitudin, pharetra orci non, cursus justo.
+                      Aenean pulvinar consequat est sit amet cursus. 
+                      In fermentum massa sit amet cursus mattis. 
+                      Integer eget tellus vitae nunc pulvinar sollicitudin. 
+                      Etiam vulputate lorem aliquet mi ullamcorper, id lobortis diam mollis. 
+                      Maecenas porta volutpat dui, at facilisis turpis. Nullam sed finibus ex. 
+                      Nam elementum nunc non massa imperdiet cursus. Suspendisse rutrum dignissim consectetur. 
+                      Praesent feugiat, lorem ac bibendum tempor, enim turpis blandit risus, rhoncus faucibus risus massa vel dui. 
+                      In vulputate orci ut mollis vehicula. Suspendisse sit amet rutrum arcu. 
+                      Integer a ante fermentum, rhoncus nibh vel, iaculis nisl.
+                      <a id="head4"></a>
+                    </p>
+                    <br>
+            </div>
+            </div>
+          <footer id="svg-end" class="pt-5 pb-5 footer py-5 bg-dark text-white">
+            <div class="container">
+              <div class="row mb-4">
+                <div class="col-lg-6 col-xs-12">
+                  <h4 class="mb-3" style="padding-left: 50px;"><a href="https://2023.igem.wiki/iiser-tvm/">Oasys</a></h4>
+                  <p style="color: aliceblue;">A depression diagnostics kit envisioned by iGEM IISER TVM 2023</p>
+                </div>
+                <div class="col-lg-3 col-xs-12">
+                  <h4 class="mt-lg-0 mt-sm-3">Links</h4>
                     <ul class="m-2 p-2">
                       <li><a href="https://biology.iisertvm.ac.in/">School of Biology, IISER TVM</a></li>
                       <li><a href="https://www.instagram.com/igem_iisertvm">Instagram</a></li>
                       <li><a href="https://twitter.com/igem_iisertvm">Twitter</a></li>
                       <li><a href="https://www.youtube.com/c/iGEMIISERTVM">YouTube</a></li>
                       <li><a href="https://2021.igem.org/Team:IISER_TVM">iGEM IISER TVM 2021</a></li>
+                      <li><a href="https://2023.igem.wiki/iiser-tvm/">iGEM IISER TVM 2022</a></li>
                     </ul>
                 </div>
-                <div class="">
-                  <h4 class="">Contact</h4>
-                  <p>IISER Thiruvananthapuram, Maruthamala PO, Vithura, Kerala, India - 695551</p>
-                  <p class="mb-0">+91 0471 277 8009</p>
-                  <p>igem@iisertvm.ac.in</p>
+                <div class="col-lg-3 col-xs-12">
+                  <h4 class="mt-lg-0 mt-sm-4 mb-3 center">Contact</h4>
+                  <p style="color: aliceblue";>IISER Thiruvananthapuram, Maruthamala PO, Vithura, Kerala, India - 695551</p>
+                  <p class="mb-0"style="color: aliceblue">+91 0471 277 8009</p>
+                  <p style="color: aliceblue">igem@iisertvm.ac.in</p>
                 </div>
               </div>
               <hr>
               <!-- The following MUST be on every page: license information and link to the repository on gitlab.igem.org -->
               <div class="row mt-4">
                 <div class="col">
-                  <p class="mb-0"><small>© 2023 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
-                  <p><small>The repository used to create this website is available at <a href="#">gitlab.igem.org/2023/iiser-tvm</a>.</small></p>
+                  <p class="mb-0"><small>© 2022 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
+                  <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2022/iiser-tvm">gitlab.igem.org/2022/iiser-tvm</a>.</small></p>
                 </div>
               </div>
             </div>
           </footer>
-      
+
 </html>
