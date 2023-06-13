@@ -29,7 +29,7 @@
   }
   
   .light-theme {
-    --background: #FFF;
+    --background: #F1EFE5;
     --text: #000;
     background: var(--background);
   }
@@ -96,6 +96,7 @@ h4 {
   .page-wrapper {
     width: 100%;
     height: auto;
+    background-color: #F1EFE5;
   }
   
   .nav-wrapper {
@@ -103,7 +104,7 @@ h4 {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: #E4E2DB;
   }
   
   .grad-bar {
@@ -489,11 +490,11 @@ h4 {
   .bg-dark { background-color: #343a40 !important; }
   .bg-hero { background-color: #7952b3; }
 footer {
-  background-color: #3f3f3f;
+  background-color:#0D0B0A;
 }
 .site-footer
 {
-  background-color:#26272b;
+  background-color:#0D0B0A;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -5081,6 +5082,7 @@ container,
     padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
     margin-left: auto;
+    background-color: #F1EFE5;
 }
 @media (min-width: 576px) {
     .container,
@@ -5125,7 +5127,7 @@ container,
 .our-team {
   padding: 30px 0 40px;
   margin-bottom: 30px;
-  background-color: #f7f5ec;
+  background-color: #F1EFE5;
   text-align: center;
   overflow: hidden;
   position: relative;
