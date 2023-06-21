@@ -657,14 +657,14 @@
         ]
         },
         {
-          "name": "Europe",
-          "id": "Europe",
+          "name": "Students",
+          "id": "Students",
           "fill": "#adc965",
           "total_deaths": "294523",
           "children": [
             {
               "iso_code": "ALB",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Albania",
               "date": "24-11-20",
               "value": "33556",
@@ -678,7 +678,7 @@
             },
             {
               "iso_code": "AND",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Andorra",
               "date": "24-11-20",
               "value": "6304",
@@ -692,7 +692,7 @@
             },
             {
               "iso_code": "AUT",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Austria",
               "date": "24-11-20",
               "value": "249214",
@@ -706,7 +706,7 @@
             },
             {
               "iso_code": "BLR",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Belarus",
               "date": "24-11-20",
               "value": "125482",
@@ -720,7 +720,7 @@
             },
             {
               "iso_code": "BIH",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Bosnia and Herzegovina",
               "date": "24-11-20",
               "value": "80553",
@@ -734,7 +734,7 @@
             },
             {
               "iso_code": "BGR",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Bulgaria",
               "date": "24-11-20",
               "value": "124966",
@@ -748,7 +748,7 @@
             },
             {
               "iso_code": "HRV",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Croatia",
               "date": "24-11-20",
               "value": "105691",
@@ -762,7 +762,7 @@
             },
             {
               "iso_code": "CYP",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Cyprus",
               "date": "24-11-20",
               "value": "8947",
@@ -776,7 +776,7 @@
             },
             {
               "iso_code": "CZE",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Czech Republic",
               "date": "24-11-20",
               "value": "496638",
@@ -790,7 +790,7 @@
             },
             {
               "iso_code": "DNK",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Denmark",
               "date": "24-11-20",
               "value": "71654",
@@ -804,7 +804,7 @@
             },
             {
               "iso_code": "EST",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Estonia",
               "date": "24-11-20",
               "value": "9956",
@@ -818,7 +818,7 @@
             },
             {
               "iso_code": "FRO",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Faeroe Islands",
               "date": "24-11-20",
               "value": "500",
@@ -832,7 +832,7 @@
             },
             {
               "iso_code": "FIN",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Finland",
               "date": "24-11-20",
               "value": "21936",
@@ -846,7 +846,7 @@
             },
             {
               "iso_code": "FRA",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "France",
               "date": "24-11-20",
               "value": "2144660",
@@ -860,7 +860,7 @@
             },
             {
               "iso_code": "DEU",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Germany",
               "date": "24-11-20",
               "value": "942687",
@@ -874,7 +874,7 @@
             },
             {
               "iso_code": "GIB",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Gibraltar",
               "date": "24-11-20",
               "value": "967",
@@ -888,7 +888,7 @@
             },
             {
               "iso_code": "GRC",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Greece",
               "date": "24-11-20",
               "value": "93006",
@@ -902,7 +902,7 @@
             },
             {
               "iso_code": "GGY",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Guernsey",
               "date": "24-11-20",
               "value": "283",
@@ -916,7 +916,7 @@
             },
             {
               "iso_code": "HUN",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Hungary",
               "date": "24-11-20",
               "value": "181881",
@@ -930,7 +930,7 @@
             },
             {
               "iso_code": "ISL",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Iceland",
               "date": "24-11-20",
               "value": "5289",
@@ -944,7 +944,7 @@
             },
             {
               "iso_code": "IRL",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Ireland",
               "date": "24-11-20",
               "value": "70711",
@@ -958,7 +958,7 @@
             },
             {
               "iso_code": "IMN",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Isle of Man",
               "date": "24-11-20",
               "value": "369",
@@ -972,7 +972,7 @@
             },
             {
               "iso_code": "ITA",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Italy",
               "date": "24-11-20",
               "value": "1431795",
@@ -986,7 +986,7 @@
             },
             {
               "iso_code": "JEY",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Jersey",
               "date": "24-11-20",
               "value": "835",
@@ -1000,7 +1000,7 @@
             },
             {
               "iso_code": "OWID_KOS",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Kosovo",
               "date": "24-11-20",
               "value": "34940",
@@ -1014,7 +1014,7 @@
             },
             {
               "iso_code": "LVA",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Latvia",
               "date": "24-11-20",
               "value": "13236",
@@ -1028,7 +1028,7 @@
             },
             {
               "iso_code": "LIE",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Liechtenstein",
               "date": "24-11-20",
               "value": "1181",
@@ -1042,7 +1042,7 @@
             },
             {
               "iso_code": "LTU",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Lithuania",
               "date": "24-11-20",
               "value": "48226",
@@ -1056,7 +1056,7 @@
             },
             {
               "iso_code": "LUX",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Luxembourg",
               "date": "24-11-20",
               "value": "30935",
@@ -1070,7 +1070,7 @@
             },
             {
               "iso_code": "MKD",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Macedonia",
               "date": "24-11-20",
               "value": "55127",
@@ -1084,7 +1084,7 @@
             },
             {
               "iso_code": "MLT",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Malta",
               "date": "24-11-20",
               "value": "8560",
@@ -1098,7 +1098,7 @@
             },
             {
               "iso_code": "MDA",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Moldova",
               "date": "24-11-20",
               "value": "98418",
@@ -1112,7 +1112,7 @@
             },
             {
               "iso_code": "MCO",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Monaco",
               "date": "24-11-20",
               "value": "583",
@@ -1126,7 +1126,7 @@
             },
             {
               "iso_code": "MNE",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Montenegro",
               "date": "24-11-20",
               "value": "31618",
@@ -1140,7 +1140,7 @@
             },
             {
               "iso_code": "NLD",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Netherlands",
               "date": "24-11-20",
               "value": "489223",
@@ -1154,7 +1154,7 @@
             },
             {
               "iso_code": "NOR",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Norway",
               "date": "24-11-20",
               "value": "32767",
@@ -1168,7 +1168,7 @@
             },
             {
               "iso_code": "POL",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Poland",
               "date": "24-11-20",
               "value": "876333",
@@ -1182,7 +1182,7 @@
             },
             {
               "iso_code": "PRT",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Portugal",
               "date": "24-11-20",
               "value": "264802",
@@ -1196,7 +1196,7 @@
             },
             {
               "iso_code": "ROU",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Romania",
               "date": "24-11-20",
               "value": "422852",
@@ -1210,7 +1210,7 @@
             },
             {
               "iso_code": "RUS",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Russia",
               "date": "24-11-20",
               "value": "2138828",
@@ -1224,7 +1224,7 @@
             },
             {
               "iso_code": "SMR",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "San Marino",
               "date": "24-11-20",
               "value": "1428",
@@ -1238,7 +1238,7 @@
             },
             {
               "iso_code": "SRB",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Serbia",
               "date": "24-11-20",
               "value": "126187",
@@ -1252,7 +1252,7 @@
             },
             {
               "iso_code": "SVK",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Slovakia",
               "date": "24-11-20",
               "value": "96472",
@@ -1266,7 +1266,7 @@
             },
             {
               "iso_code": "SVN",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Slovenia",
               "date": "24-11-20",
               "value": "65778",
@@ -1280,7 +1280,7 @@
             },
             {
               "iso_code": "CHE",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Switzerland",
               "date": "24-11-20",
               "value": "299171",
@@ -1294,7 +1294,7 @@
             },
             {
               "iso_code": "UKR",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Ukraine",
               "date": "24-11-20",
               "value": "635689",
@@ -1308,7 +1308,7 @@
             },
             {
               "iso_code": "GBR",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "United Kingdom",
               "date": "24-11-20",
               "value": "1527495",
@@ -1322,7 +1322,7 @@
             },
             {
               "iso_code": "VAT",
-              "continent": "Europe",
+              "continent": "Students",
               "name": "Vatican",
               "date": "24-11-20",
               "value": "26",
@@ -1337,14 +1337,14 @@
           ]
         },
         {
-          "name": "Africa",
-          "id": "Africa",
+          "name": "Public",
+          "id": "Public",
           "fill": "#FBAF0A",
           "total_deaths": "49986",
           "children": [
             {
               "iso_code": "DZA",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Algeria",
               "date": "24-11-20",
               "value": "75867",
@@ -1358,7 +1358,7 @@
             },
             {
               "iso_code": "AGO",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Angola",
               "date": "24-11-20",
               "value": "14493",
@@ -1372,7 +1372,7 @@
             },
             {
               "iso_code": "BEN",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Benin",
               "date": "24-11-20",
               "value": "2916",
@@ -1386,7 +1386,7 @@
             },
             {
               "iso_code": "BWA",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Botswana",
               "date": "24-11-20",
               "value": "9594",
@@ -1400,7 +1400,7 @@
             },
             {
               "iso_code": "BFA",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Burkina Faso",
               "date": "24-11-20",
               "value": "2754",
@@ -1414,7 +1414,7 @@
             },
             {
               "iso_code": "BDI",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Burundi",
               "date": "24-11-20",
               "value": "664",
@@ -1428,7 +1428,7 @@
             },
             {
               "iso_code": "CMR",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Cameroon",
               "date": "24-11-20",
               "value": "23528",
@@ -1442,7 +1442,7 @@
             },
             {
               "iso_code": "CPV",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Cape Verde",
               "date": "24-11-20",
               "value": "10302",
@@ -1456,8 +1456,8 @@
             },
             {
               "iso_code": "CAF",
-              "continent": "Africa",
-              "name": "Central African Republic",
+              "continent": "Public",
+              "name": "Central Publicn Republic",
               "date": "24-11-20",
               "value": "4911",
               "new_cases": "0",
@@ -1470,7 +1470,7 @@
             },
             {
               "iso_code": "TCD",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Chad",
               "date": "24-11-20",
               "value": "1648",
@@ -1484,7 +1484,7 @@
             },
             {
               "iso_code": "COM",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Comoros",
               "date": "24-11-20",
               "value": "596",
@@ -1498,7 +1498,7 @@
             },
             {
               "iso_code": "COG",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Congo",
               "date": "24-11-20",
               "value": "5632",
@@ -1512,7 +1512,7 @@
             },
             {
               "iso_code": "CIV",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Cote d'Ivoire",
               "date": "24-11-20",
               "value": "21148",
@@ -1526,7 +1526,7 @@
             },
             {
               "iso_code": "COD",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Democratic Republic of Congo",
               "date": "24-11-20",
               "value": "12277",
@@ -1540,7 +1540,7 @@
             },
             {
               "iso_code": "DJI",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Djibouti",
               "date": "24-11-20",
               "value": "5668",
@@ -1554,7 +1554,7 @@
             },
             {
               "iso_code": "EGY",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Egypt",
               "date": "24-11-20",
               "value": "113381",
@@ -1568,7 +1568,7 @@
             },
             {
               "iso_code": "GNQ",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Equatorial Guinea",
               "date": "24-11-20",
               "value": "5137",
@@ -1582,7 +1582,7 @@
             },
             {
               "iso_code": "ERI",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Eritrea",
               "date": "24-11-20",
               "value": "558",
@@ -1596,7 +1596,7 @@
             },
             {
               "iso_code": "ETH",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Ethiopia",
               "date": "24-11-20",
               "value": "106203",
@@ -1610,7 +1610,7 @@
             },
             {
               "iso_code": "GAB",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Gabon",
               "date": "24-11-20",
               "value": "9150",
@@ -1624,7 +1624,7 @@
             },
             {
               "iso_code": "GMB",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Gambia",
               "date": "24-11-20",
               "value": "3726",
@@ -1638,7 +1638,7 @@
             },
             {
               "iso_code": "GHA",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Ghana",
               "date": "24-11-20",
               "value": "50941",
@@ -1652,7 +1652,7 @@
             },
             {
               "iso_code": "GIN",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Guinea",
               "date": "24-11-20",
               "value": "12863",
@@ -1666,7 +1666,7 @@
             },
             {
               "iso_code": "GNB",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Guinea-Bissau",
               "date": "24-11-20",
               "value": "2421",
@@ -1680,7 +1680,7 @@
             },
             {
               "iso_code": "KEN",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Kenya",
               "date": "24-11-20",
               "value": "77785",
@@ -1694,7 +1694,7 @@
             },
             {
               "iso_code": "LSO",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Lesotho",
               "date": "24-11-20",
               "value": "2086",
@@ -1708,7 +1708,7 @@
             },
             {
               "iso_code": "LBR",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Liberia",
               "date": "24-11-20",
               "value": "1551",
@@ -1722,7 +1722,7 @@
             },
             {
               "iso_code": "LBY",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Libya",
               "date": "24-11-20",
               "value": "78473",
@@ -1736,7 +1736,7 @@
             },
             {
               "iso_code": "MDG",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Madagascar",
               "date": "24-11-20",
               "value": "17341",
@@ -1750,7 +1750,7 @@
             },
             {
               "iso_code": "MWI",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Malawi",
               "date": "24-11-20",
               "value": "6009",
@@ -1764,7 +1764,7 @@
             },
             {
               "iso_code": "MLI",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Mali",
               "date": "24-11-20",
               "value": "4255",
@@ -1778,7 +1778,7 @@
             },
             {
               "iso_code": "MRT",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Mauritania",
               "date": "24-11-20",
               "value": "8130",
@@ -1792,7 +1792,7 @@
             },
             {
               "iso_code": "MUS",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Mauritius",
               "date": "24-11-20",
               "value": "494",
@@ -1806,7 +1806,7 @@
             },
             {
               "iso_code": "MAR",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Morocco",
               "date": "24-11-20",
               "value": "327528",
@@ -1820,7 +1820,7 @@
             },
             {
               "iso_code": "MOZ",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Mozambique",
               "date": "24-11-20",
               "value": "15109",
@@ -1834,7 +1834,7 @@
             },
             {
               "iso_code": "NAM",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Namibia",
               "date": "24-11-20",
               "value": "13897",
@@ -1848,7 +1848,7 @@
             },
             {
               "iso_code": "NER",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Niger",
               "date": "24-11-20",
               "value": "1381",
@@ -1862,7 +1862,7 @@
             },
             {
               "iso_code": "NGA",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Nigeria",
               "date": "24-11-20",
               "value": "66439",
@@ -1876,7 +1876,7 @@
             },
             {
               "iso_code": "RWA",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Rwanda",
               "date": "24-11-20",
               "value": "5726",
@@ -1890,7 +1890,7 @@
             },
             {
               "iso_code": "STP",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Sao Tome and Principe",
               "date": "24-11-20",
               "value": "981",
@@ -1904,7 +1904,7 @@
             },
             {
               "iso_code": "SEN",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Senegal",
               "date": "24-11-20",
               "value": "15897",
@@ -1918,7 +1918,7 @@
             },
             {
               "iso_code": "SYC",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Seychelles",
               "date": "24-11-20",
               "value": "166",
@@ -1932,7 +1932,7 @@
             },
             {
               "iso_code": "SLE",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Sierra Leone",
               "date": "24-11-20",
               "value": "2406",
@@ -1946,7 +1946,7 @@
             },
             {
               "iso_code": "SOM",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Somalia",
               "date": "24-11-20",
               "value": "4445",
@@ -1960,8 +1960,8 @@
             },
             {
               "iso_code": "ZAF",
-              "continent": "Africa",
-              "name": "South Africa",
+              "continent": "Public",
+              "name": "South Public",
               "date": "24-11-20",
               "value": "769759",
               "new_cases": "2080",
@@ -1974,7 +1974,7 @@
             },
             {
               "iso_code": "SSD",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "South Sudan",
               "date": "24-11-20",
               "value": "3047",
@@ -1988,7 +1988,7 @@
             },
             {
               "iso_code": "SDN",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Sudan",
               "date": "24-11-20",
               "value": "16187",
@@ -2002,7 +2002,7 @@
             },
             {
               "iso_code": "SWZ",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Swaziland",
               "date": "24-11-20",
               "value": "6233",
@@ -2016,7 +2016,7 @@
             },
             {
               "iso_code": "TZA",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Tanzania",
               "date": "24-11-20",
               "value": "509",
@@ -2030,7 +2030,7 @@
             },
             {
               "iso_code": "TGO",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Togo",
               "date": "24-11-20",
               "value": "2854",
@@ -2044,7 +2044,7 @@
             },
             {
               "iso_code": "TUN",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Tunisia",
               "date": "24-11-20",
               "value": "89195",
@@ -2058,7 +2058,7 @@
             },
             {
               "iso_code": "UGA",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Uganda",
               "date": "24-11-20",
               "value": "18165",
@@ -2072,7 +2072,7 @@
             },
             {
               "iso_code": "ESH",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Western Sahara",
               "date": "24-11-20",
               "value": "766",
@@ -2086,7 +2086,7 @@
             },
             {
               "iso_code": "ZMB",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Zambia",
               "date": "24-11-20",
               "value": "17454",
@@ -2100,7 +2100,7 @@
             },
             {
               "iso_code": "ZWE",
-              "continent": "Africa",
+              "continent": "Public",
               "name": "Zimbabwe",
               "date": "24-11-20",
               "value": "9308",
@@ -2115,14 +2115,14 @@
           ]
         },
         {
-          "name": "North America",
-          "id": "North America",
+          "name": "Adults",
+          "id": "Adults",
           "fill": "#e25b45",
           "total_deaths": "388433",
           "children": [
             {
               "iso_code": "AIA",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Anguilla",
               "date": "24-11-20",
               "value": "4",
@@ -2136,7 +2136,7 @@
             },
             {
               "iso_code": "ATG",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Antigua and Barbuda",
               "date": "24-11-20",
               "value": "139",
@@ -2150,7 +2150,7 @@
             },
             {
               "iso_code": "ABW",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Aruba",
               "date": "24-11-20",
               "value": "4737",
@@ -2164,7 +2164,7 @@
             },
             {
               "iso_code": "BHS",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Bahamas",
               "date": "24-11-20",
               "value": "7413",
@@ -2178,7 +2178,7 @@
             },
             {
               "iso_code": "BRB",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Barbados",
               "date": "24-11-20",
               "value": "260",
@@ -2192,7 +2192,7 @@
             },
             {
               "iso_code": "BLZ",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Belize",
               "date": "24-11-20",
               "value": "5249",
@@ -2206,7 +2206,7 @@
             },
             {
               "iso_code": "BMU",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Bermuda",
               "date": "24-11-20",
               "value": "227",
@@ -2220,7 +2220,7 @@
             },
             {
               "iso_code": "BES",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Bonaire Sint Eustatius and Saba",
               "date": "24-11-20",
               "value": "161",
@@ -2234,7 +2234,7 @@
             },
             {
               "iso_code": "VGB",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "British Virgin Islands",
               "date": "24-11-20",
               "value": "72",
@@ -2248,7 +2248,7 @@
             },
             {
               "iso_code": "CAN",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Canada",
               "date": "24-11-20",
               "value": "337555",
@@ -2262,7 +2262,7 @@
             },
             {
               "iso_code": "CYM",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Cayman Islands",
               "date": "24-11-20",
               "value": "265",
@@ -2276,7 +2276,7 @@
             },
             {
               "iso_code": "CRI",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Costa Rica",
               "date": "24-11-20",
               "value": "132295",
@@ -2290,7 +2290,7 @@
             },
             {
               "iso_code": "CUB",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Cuba",
               "date": "24-11-20",
               "value": "7879",
@@ -2304,7 +2304,7 @@
             },
             {
               "iso_code": "CUW",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Curacao",
               "date": "24-11-20",
               "value": "1773",
@@ -2318,7 +2318,7 @@
             },
             {
               "iso_code": "DMA",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Dominica",
               "date": "24-11-20",
               "value": "77",
@@ -2332,7 +2332,7 @@
             },
             {
               "iso_code": "DOM",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Dominican Republic",
               "date": "24-11-20",
               "value": "138829",
@@ -2346,7 +2346,7 @@
             },
             {
               "iso_code": "SLV",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "El Salvador",
               "date": "24-11-20",
               "value": "37884",
@@ -2360,7 +2360,7 @@
             },
             {
               "iso_code": "GRL",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Greenland",
               "date": "24-11-20",
               "value": "18",
@@ -2374,7 +2374,7 @@
             },
             {
               "iso_code": "GRD",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Grenada",
               "date": "24-11-20",
               "value": "41",
@@ -2388,7 +2388,7 @@
             },
             {
               "iso_code": "GTM",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Guatemala",
               "date": "24-11-20",
               "value": "118722",
@@ -2402,7 +2402,7 @@
             },
             {
               "iso_code": "HTI",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Haiti",
               "date": "24-11-20",
               "value": "9224",
@@ -2416,7 +2416,7 @@
             },
             {
               "iso_code": "HND",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Honduras",
               "date": "24-11-20",
               "value": "104915",
@@ -2430,7 +2430,7 @@
             },
             {
               "iso_code": "JAM",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Jamaica",
               "date": "24-11-20",
               "value": "10343",
@@ -2444,7 +2444,7 @@
             },
             {
               "iso_code": "MEX",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Mexico",
               "date": "24-11-20",
               "value": "1049358",
@@ -2458,7 +2458,7 @@
             },
             {
               "iso_code": "MSR",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Montserrat",
               "date": "24-11-20",
               "value": "13",
@@ -2472,7 +2472,7 @@
             },
             {
               "iso_code": "NIC",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Nicaragua",
               "date": "24-11-20",
               "value": "5725",
@@ -2486,7 +2486,7 @@
             },
             {
               "iso_code": "PAN",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Panama",
               "date": "24-11-20",
               "value": "155658",
@@ -2500,7 +2500,7 @@
             },
             {
               "iso_code": "PRI",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Puerto Rico",
               "date": "24-11-20",
               "value": "86053",
@@ -2514,7 +2514,7 @@
             },
             {
               "iso_code": "KNA",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Saint Kitts and Nevis",
               "date": "24-11-20",
               "value": "20",
@@ -2528,7 +2528,7 @@
             },
             {
               "iso_code": "LCA",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Saint Lucia",
               "date": "24-11-20",
               "value": "223",
@@ -2542,7 +2542,7 @@
             },
             {
               "iso_code": "VCT",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Saint Vincent and the Grenadines",
               "date": "24-11-20",
               "value": "84",
@@ -2556,7 +2556,7 @@
             },
             {
               "iso_code": "SXM",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Sint Maarten (Dutch part)",
               "date": "24-11-20",
               "value": "1017",
@@ -2570,7 +2570,7 @@
             },
             {
               "iso_code": "TTO",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Trinidad and Tobago",
               "date": "24-11-20",
               "value": "6475",
@@ -2584,7 +2584,7 @@
             },
             {
               "iso_code": "TCA",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "Turks and Caicos Islands",
               "date": "24-11-20",
               "value": "746",
@@ -2598,7 +2598,7 @@
             },
             {
               "iso_code": "USA",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "United States",
               "date": "24-11-20",
               "value": "12420872",
@@ -2612,7 +2612,7 @@
             },
             {
               "iso_code": "VIR",
-              "continent": "North America",
+              "continent": "Adults",
               "name": "United States Virgin Islands",
               "date": "24-11-20",
               "value": "1507",
@@ -2627,14 +2627,14 @@
           ]
         },
         {
-          "name": "South America",
-          "id": "South America",
+          "name": "Schools",
+          "id": "Schools",
           "fill": "#7C79A2",
           "total_deaths": "317833",
           "children": [
             {
               "iso_code": "ARG",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Argentina",
               "date": "24-11-20",
               "value": "1374348",
@@ -2648,7 +2648,7 @@
             },
             {
               "iso_code": "BOL",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Bolivia",
               "date": "24-11-20",
               "value": "143978",
@@ -2662,7 +2662,7 @@
             },
             {
               "iso_code": "BRA",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Brazil",
               "date": "24-11-20",
               "value": "6087608",
@@ -2676,7 +2676,7 @@
             },
             {
               "iso_code": "CHL",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Chile",
               "date": "24-11-20",
               "value": "542080",
@@ -2690,7 +2690,7 @@
             },
             {
               "iso_code": "COL",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Colombia",
               "date": "24-11-20",
               "value": "1254979",
@@ -2704,7 +2704,7 @@
             },
             {
               "iso_code": "ECU",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Ecuador",
               "date": "24-11-20",
               "value": "185944",
@@ -2718,7 +2718,7 @@
             },
             {
               "iso_code": "FLK",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Falkland Islands",
               "date": "24-11-20",
               "value": "16",
@@ -2732,7 +2732,7 @@
             },
             {
               "iso_code": "GUY",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Guyana",
               "date": "24-11-20",
               "value": "5133",
@@ -2746,7 +2746,7 @@
             },
             {
               "iso_code": "PRY",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Paraguay",
               "date": "24-11-20",
               "value": "77072",
@@ -2760,7 +2760,7 @@
             },
             {
               "iso_code": "PER",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Peru",
               "date": "24-11-20",
               "value": "950557",
@@ -2774,7 +2774,7 @@
             },
             {
               "iso_code": "SUR",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Suriname",
               "date": "24-11-20",
               "value": "5297",
@@ -2788,7 +2788,7 @@
             },
             {
               "iso_code": "URY",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Uruguay",
               "date": "24-11-20",
               "value": "4763",
@@ -2802,7 +2802,7 @@
             },
             {
               "iso_code": "VEN",
-              "continent": "South America",
+              "continent": "Schools",
               "name": "Venezuela",
               "date": "24-11-20",
               "value": "100143",
