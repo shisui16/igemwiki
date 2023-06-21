@@ -5594,3 +5594,6 @@ container,
     z-index: 1;
 }
 
+#container2 {
+    height: 75vh;
+}
