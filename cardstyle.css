@@ -1,0 +1,120 @@
+body {
+    font-family: "Tinos", sans-serif;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  button {
+    all: unset;
+    cursor: pointer;
+    padding: 0.5em;
+    outline: 1px solid #d4aa00;
+    color: #d4aa00;
+  }
+  
+  button:hover {
+    all: unset;
+    cursor: pointer;
+    padding: 0.5em;
+    color: white;
+    background-color: #d4aa00;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    object-fit: cover;
+    backface-visibility: hidden;
+  }
+  
+  /* Styling Cards */
+  
+  .card {
+    width: 25%;
+    max-width: 350px;
+    height: 500px;
+    background-color: transparent;
+  }
+  
+  #card1,
+  #card3 {
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  #card2 {
+    perspective: 1000px;
+  }
+  .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  
+    transform-style: preserve-3d;
+    transition: transform 0.75s;
+  }
+  .inner * {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Card Covers */
+  .cover {
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    background-color: white;
+    overflow: hidden;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    transition: all 0.75s ease-in-out;
+  }
+  
+  /* Card 1 - slide from top */
+  .cover1 {
+    position: relative;
+    top: -201%;
+  }
+  
+  .card:hover .cover1 {
+    top: -101%;
+  }
+  
+  /* Card 2 - Flip 180 */
+  .cover2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -101%;
+    transform: rotateY(180deg);
+  }
+  .card:hover .inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Card 3 - slide from right */
+  .cover3 {
+    position: relative;
+    right: -200%;
+    top: -101%;
+  }
+  
+  .card:hover .cover3 {
+    right: 0%;
+  }
+  
