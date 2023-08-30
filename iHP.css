@@ -1,6 +1,5 @@
 body {
-    background-color: #000;
-  
+    
     overflow-x: hidden;
   }
   
@@ -59,7 +58,7 @@ body {
   }
   .ag-timeline_tagline {
     font-size: 40px;
-    color: rgb(84, 89, 95);
+    color: #002147;
   }
   .ag-timeline_title {
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
@@ -94,7 +93,7 @@ body {
   }
   .ag-timeline_line {
     width: 2px;
-    background-color: #393935;
+    background-color: #999991;
   
     position: absolute;
     top: 2px;
@@ -113,7 +112,7 @@ body {
   .ag-timeline_line-progress {
     width: 100%;
     height: 20%;
-    background-color: #FF0;
+    background-color: rgb(235, 7, 7);
   }
   
   .ag-timeline-card_box {
@@ -133,8 +132,8 @@ body {
     height: 50px;
     line-height: 50px;
     width: 50px;
-    border: 3px solid #FF0;
-    background-color: #1d1d1b;
+    border: 3px solid #999991;
+    background-color: #999991;
   
     text-align: center;
     font-family: 'ESL Legend', sans-serif;
@@ -147,7 +146,7 @@ body {
   }
   .js-ag-active .ag-timeline-card_point {
     color: #1d1d1b;
-    background-color: #FF0;
+    background-color: rgb(235, 7, 7);
   }
   .ag-timeline-card_meta-box {
     display: inline-block;
@@ -158,7 +157,7 @@ body {
     font-family: 'ESL Legend', sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color: #FF0;
+    color: #002147;
   }
   .ag-timeline-card_item {
     display: inline-block;
