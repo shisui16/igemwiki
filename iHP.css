@@ -61,15 +61,15 @@ body {
     color: #002147;
   }
   .ag-timeline_title {
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
-    background-repeat: no-repeat;
+    /*background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
+    */background-repeat: no-repeat;
     background-position: 50% 50%;
   
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
-    text-fill-color: transparent;
-    color: transparent;
+    text-fill-color: #6796a2;
+    color: #6796a2;
   
     font-size: 80px;
   }
