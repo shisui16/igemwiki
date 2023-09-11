@@ -321,7 +321,7 @@ h1 {
 .bar {
     width: 10px;
     height: auto;
-    background-color: var(--yellow);
+    background-color:transparent;
     padding: 30px 0 30px 0;
 }
 
@@ -1496,7 +1496,7 @@ h1 {
 /* begin code for the general accordion
 /* Style the buttons that are used to open and close the accordion panel */
 .accordionblue {
-    background-color: var(--lightblue);
+    background-color: #a4c0c8;
     color: white;
     cursor: pointer;
     padding: 15px 20px;
@@ -1547,12 +1547,12 @@ h1 {
 .panelblue,
 .body {
     padding: 0 18px;
-    background-color: #1F2F46;
+    background-color: #6796a2;
     color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.1s ease-out;
-    border-left: 4px solid var(--yellow);
+    border-left: 4px;
     margin-bottom: 10px;
 
 }
