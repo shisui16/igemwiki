@@ -1,4 +1,4 @@
-HEAD body {
+/*HEAD body {
     padding-top: 56px;
 }
 
@@ -23,9 +23,9 @@ HEAD body {
     --lightblue: #475B78;
     --timelineblue: #425f92;
     --lightgreen: #78B579;
-    /* Height of a single gantt chart bar */
+    /* Height of a single gantt chart bar
     --bar-height: 60px;
-}
+}*/
 
 body {
     overflow-x: hidden;
@@ -39,7 +39,7 @@ body {
     margin-left: auto;
 }
 
-.bg-dark {
+/*.bg-dark {
     background-color: #343a40 !important;
 }
 
@@ -47,7 +47,7 @@ body {
     background-color: #7952b3;
 }
 
-/* CALLOUT */
+/* CALLOUT 
 .bd-callout {
     padding: 1.25rem;
     margin-top: 1.25rem;
@@ -85,7 +85,7 @@ body {
     border-left-color: #d9534f
 }
 
-/* footer */
+/* footer 
 footer a {
     color: white;
     font-weight: bold;
@@ -120,7 +120,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 10rem;
-    /*line-height: 167px;*/
+    /*line-height: 167px;
     font-family: 'Lato', sans-serif;
     font-size: clamp(32px, 125px, 6vw);
 }
@@ -240,7 +240,7 @@ h1 {
     margin: -20% 0 0 0;
     position: relative;
 }
-
+*/
 .blueblock {
     width: 100%;
     background-color: #f9f9f9;
@@ -525,7 +525,7 @@ h1 {
     visibility: visible;
 }
 
-/* Next & previous buttons */
+/* Next & previous buttons 
 .prev,
 .next {
     cursor: pointer;
@@ -604,7 +604,7 @@ h1 {
     background: #0e7952;
 }
 
-/* Stakeholder indentification map: */
+/* Stakeholder indentification map: 
 
 .stakeholder-circles {
     display: flex;
@@ -1391,11 +1391,11 @@ h1 {
     background-color: #283d5b;
     color: white;
   }
-
+*/
 .end-blueblock {
     position: relative;
 }
-
+/*
 .cropped-flipped {
     width: 100%;
     height: 100%;
@@ -1492,7 +1492,7 @@ h1 {
 .name, .organization, .tldate{
     font-size: 15px;
 }
-
+*/
 /* begin code for the general accordion
 /* Style the buttons that are used to open and close the accordion panel */
 .accordionblue {
@@ -1514,7 +1514,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-
+/*
 .accordionwhite {
     background-color: FBFBFB;
     color: black;
@@ -1534,7 +1534,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-
+*/
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
 .active,
@@ -1552,7 +1552,7 @@ h1 {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.1s ease-out;
-    border-left: 4px;
+    border-left: 4px solid var(--yellow);
     margin-bottom: 10px;
 
 }
@@ -3213,7 +3213,7 @@ h1 {
     
 }
 
-/*extra small device style */
+/*extra small device style 
 @media (max-width: 575px) {
     .timeline::before {
         content: "";
@@ -3376,4 +3376,4 @@ h1 {
 .wbold:hover {
     color: var(--darkgreen);
     cursor:pointer;
-}
+}*/
