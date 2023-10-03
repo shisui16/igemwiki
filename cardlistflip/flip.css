@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+  --duration: 0.6s;
+  --easing: cubic-bezier(0.6, 0, 0.4, 1);
+  --delay: 0s;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100%;
+  width: 90vw;
+  margin: auto;
+}
+
+.articles {
+  display: grid;
+  grid-gap: 1rem;
+  place-items: center;
+}
+.articles * {
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
+  transition-timing-function: var(--easing);
+}
+.articles > header {
+  grid-column: 1/-1;
+}
+
+.articles:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color, transparent);
+  transition: background-color 1s;
+}
+
+.articles article {
+  display: grid;
+  font-family: "Work Sans", sans-serif;
+  width: 100%;
+  --radius: 1rem;
+}
+.articles article:hover {
+  transform: translateY(-0.5rem);
+}
+.articles article:hover:before {
+  opacity: 1;
+}
+.articles article:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  border-radius: var(--radius);
+  transition: transform 0.3s;
+  transition-property: transform, opacity;
+}
+.articles article .image1 {
+  overflow: hidden;
+  border-radius: var(--radius);
+  transition-property: transform, border-radius;
+  transform-origin: top left;
+}
+.articles article .image1 .image2 {
+  overflow: hidden;
+  border-radius: var(--radius);
+  transition-property: transform, border-radius;
+  transform-origin: top left;
+}
+.articles article .image1 .image2[data-flipping] {
+  border-radius: calc((var(--dw)) * var(--radius))/calc((var(--dh)) * var(--radius));
+}
+.articles article .image1 .image2 img {
+  display: block;
+  transition: inherit;
+  transform-origin: top left;
+}
+.articles article .image1 .image2[data-flipping] {
+  transition: none;
+  transform: translate(calc(-1px * var(--dx)), calc(-1px * var(--dy))) scale(calc(1 / var(--dw)), calc(1 / var(--dh)));
+}
+.articles article .image1 .image2[data-flipping] img {
+  transform: scale(calc(var(--dw)), calc(var(--dh)));
+}
+.articles article svg {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+}
+.toggle {
+  background: white;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  border-radius: 50%;
+  border: none;
+  padding: 0.5em;
+  width: 2em;
+  height: 2em;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.toggle:hover {
+  opacity: 1;
+}
+.toggle svg {
+  width: 1em;
+  display: none;
+}
+[data-view=list] .toggle [data-view=list], [data-view=card] .toggle [data-view=card] {
+  display: block;
+}
+
+/* ---------------------------------- */
+[data-flip] {
+  transition-property: transform;
+}
+[data-flip][data-flipping] {
+  transition: none;
+  transform: translate(calc(-1px * var(--dx)), calc(-1px * var(--dy)));
+}
+
+.articles[data-view=card] {
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
+  max-width: 70vw;
+  --bg-color: #3730e9;
+}
+.articles[data-view=card] article {
+  grid-template-rows: 1fr auto;
+}
+.articles[data-view=card] article .image1 {
+  margin-bottom: -2rem;
+}
+.articles[data-view=card] article .image2 {
+  margin-bottom: -2rem;
+}
+
+.articles[data-view=list] {
+  --bg-color: #ffaa00;
+}
+.articles[data-view=list] article {
+  grid-template-columns: 40% 1fr;
+}
+.articles[data-view=list] article .image1 {
+  margin-right: -2rem;
+  height: 8em;
+  min-height: 100%;
+}
+.articles[data-view=list] article .image2 {
+  margin-right: -2rem;
+  height: 8em;
+  min-height: 100%;
+}
