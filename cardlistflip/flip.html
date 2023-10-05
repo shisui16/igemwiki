@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+	<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link href = "flip.css" rel = "stylesheet">
+  <script src="flip.css"></script> 
+  
+    </head>
+<body>
+    <div class="articles" data-view="list">
+
+        <header>
+        <button class="toggle" data-flip>
+            <svg data-view="card" viewBox="0 0 448 512" width="100" title="border-all">
+        <path d="M416 32H32A32 32 0 0 0 0 64v384a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32zm-32 64v128H256V96zm-192 0v128H64V96zM64 416V288h128v128zm192 0V288h128v128z" />
+    </svg>
+            <svg data-view="list" viewBox="0 0 448 512" width="100" title="bars">
+        <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+    </svg>
+        </button>
+        </header>
+    
+        <article>
+        <div class="image1" data-flip>
+            <img src='https://images.unsplash.com/photo-1587590576938-413aa6a5c2aa?crop=faces&cs=tinysrgb&fit=crop&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400&h=300' alt=''>
+        </div>
+        <div class="image2" data-flip>
+            <img src='https://cdn.create.vista.com/api/media/small/489140592/stock-photo-blurred-african-american-businesswoman-pointing-laptop-interracial-managers-workplace'>
+        </article>
+    
+        <article>
+        <div class="image1" data-flip>
+            <img src='https://images.unsplash.com/photo-1519419691348-3b3433c4c20e?crop=faces&cs=tinysrgb&fit=crop&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400&h=300' alt=''>
+        </div>
+        <div class="image2" data-flip>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2AVhsFaTqYdKIMb7GCjBCH105kYLCe1h9WFsOV_ttQW1vekb9_W5S6Iq0OK8olAtkMUM&usqp=CAU'>
+        </article>
+    </div>
+
+    <script>
+        console.clear();
+
+        const elContainer = document.querySelector(".articles");
+        const elToggle = elContainer.querySelector(".toggle");
+        const losFlippers = elContainer.querySelectorAll("[data-flip]");
+                                            
+        elToggle.addEventListener("click", () => {
+        flip(() => {
+            elContainer.dataset.view =
+            elContainer.dataset.view === "card" ? "list" : "card";
+        }, losFlippers);
+        });
+
+        function getRect(el) {
+        return el.getBoundingClientRect();
+        }
+
+        function flip(doSomething, firstEls, getLastEls = () => firstEls) {
+        const firstElsRects = Array.from(firstEls).map((el) => [el, getRect(el)]); // tuple [Element, ClientRect { ... } ]
+
+        requestAnimationFrame(() => {
+            doSomething();
+            const lastElsRects = Array.from(getLastEls()).map((el) => [
+            el,
+            getRect(el)
+            ]);
+
+            firstElsRects.forEach(([firstEl, firstRect], i) => {
+            let [lastEl, lastRect] = lastElsRects[i];
+            const dx = lastRect.x - firstRect.x;
+            const dy = lastRect.y - firstRect.y;
+            const dw = lastRect.width / firstRect.width;
+            const dh = lastRect.height / firstRect.height;
+            lastEl.dataset.flipping = true;
+            lastEl.style.setProperty("--dx", dx);
+            lastEl.style.setProperty("--dy", dy);
+            lastEl.style.setProperty("--dw", dw);
+            lastEl.style.setProperty("--dh", dh);
+            requestAnimationFrame(() => delete lastEl.dataset.flipping);
+            });
+        });
+        }
+    </script>
+    <script src="static/bootstrap.bundle.min.js"></script>
+</body>
+</html>

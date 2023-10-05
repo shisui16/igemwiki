@@ -1,0 +1,136 @@
+body {
+    overflow-x: hidden;
+}
+
+.disable-scroll{
+    overflow-y: hidden;
+}
+
+.blueblock {
+    width: 100%;
+    background-color: #f9f9f9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: -1px 0;
+}
+
+.bar {
+    width: 10px;
+    height: auto;
+    background-color:transparent;
+    padding: 30px 0 30px 0;
+}
+
+.end-blueblock {
+    position: relative;
+}
+
+/* begin code for the general accordion
+/* Style the buttons that are used to open and close the accordion panel */
+.accordionblue {
+    background-color: #a4c0c8;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 15px 20px;
+
+    text-align: justify;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px/10px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panelblue,
+.body {
+    padding: 0 18px;
+    background-color: #6796a2;
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease-out;
+    margin-bottom: 10px;
+}
+
+.arrow-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #2b3252;
+    border-radius: 50%;
+    text-align: center;
+}
+    
+.arrow-circle:after {
+    content: "";
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .active .arrow-circle:after {
+    content: ""; /* Unicode character for "minus" sign (-) */
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.image-tofull {
+    width: 50%
+}
+
+.image-tofull-overview{
+    width:45%;
+}
+
+.padding_notebook{
+    padding:0 35px;
+}
+
+.week_notebook{
+    min-width:14%;
+}
+
+.outline {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+/*small device style*/
+
+@media (max-width: 767px) {
+
+    .outline {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .content-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr;
+    }    
+}

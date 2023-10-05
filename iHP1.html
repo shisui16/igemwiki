@@ -7,13 +7,87 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
     integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
   <link href="index.css" rel="stylesheet">    
-  <link href="iHP.css" rel="stylesheet">
+  <link href="iHPtimeline.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="iHP.js"></script>
 </head>
 
 <body>
-<div class="ag-timeline-block">
+
+  <div class="page-wrapper">
+    <div class="nav-wrapper">
+      <div class="grad-bar"></div>
+      <nav class="navbar">
+        <img src="igem iisertvm logo (1).png" alt="iGEM Logo" height="200">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav no-search">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="dropbtn">Team
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Team.html">Team</a>
+                <a href="Attribution.html">Attributions</a>
+                <a href="Collaboration.html">Collaborations</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="dropbtn">Project
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Project/comm.html">Communication</a>
+                <a href="Project/contribution.html">Contribution</a>
+                <a href="Project/description.html">Description</a>
+                <a href="Project/engineering.html">Engineering</a>
+                <a href="Project/experiment.html">Experiments</a>
+                <a href="Project/implementation.html">Implementation</a>
+                <a href="Project/notebook.html">Notebook</a>
+                <a href="Project/partnership.html">Partnership</a>
+                <a href="Project/proof.html">Proof of Concept</a>
+                <a href="Project/results.html">Results</a>
+
+
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a href="Parts.html">
+              <div class="dropdown">
+                <button class="dropbtn">Parts
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+
+                  <a href="Parts/partcollection.html">Parts Collection</a>
+                  <a href="Parts.html">Parts</a>
+                  <a href="Parts/Improve.html">Improve</a>
+            </a></li>
+          <li class="nav-item"><a href="Results.html">Safety</a></li>
+          <li class="nav-item"><a href="iHP.html">
+            <div class="dropdown">
+              <button class="dropbtn">Human Practices
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+
+                <a href="iHP.html">Human Practices</a>
+                <a href="iHP1.html">Human Practices Timeline</a>
+              </a></li>
+          <li class="nav-item"><a href="Results.html"></a></li>
+
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="ag-timeline-block">
     <div class="ag-timeline_title-box">
       <div class="ag-timeline_tagline">Timeline</div>
       <div class="ag-timeline_title">Integrated Human Practices</div>
@@ -28,10 +102,10 @@
             <div class="js-timeline_item ag-timeline_item">
               <div class="ag-timeline-card_box">
                 <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">Date 1</div>
+                  <div class="ag-timeline-card_point">2021</div>
                 </div>
                 <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">ABCDEF</div>
+                  <div class="ag-timeline-card_meta">Season 13</div>
                 </div>
               </div>
               <div class="ag-timeline-card_item">
@@ -40,11 +114,13 @@
                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
                   </div>
                   <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">ABCDEF</div>
+                    <div class="ag-timeline-card_title">Season 13</div>
                     <div class="ag-timeline-card_desc">
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
                       eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                      montes, nascetur ridiculus mus.
+                      montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                      pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu.
                     </div>
                   </div>
                 </div>
@@ -55,10 +131,10 @@
             <div class="js-timeline_item ag-timeline_item">
               <div class="ag-timeline-card_box">
                 <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">bleh bleh</div>
+                  <div class="ag-timeline-card_meta">Season 12</div>
                 </div>
                 <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">Date 2</div>
+                  <div class="ag-timeline-card_point">2020</div>
                 </div>
               </div>
               <div class="ag-timeline-card_item">
@@ -67,12 +143,15 @@
                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-12.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
                   </div>
                   <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">bleh bleh</div>
+                    <div class="ag-timeline-card_title">Season 12</div>
                     <div class="ag-timeline-card_desc">
                       Donec pede justo, fringilla
                       vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
                       venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-                      tincidunt.
+                      tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                      nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
                     </div>
                   </div>
                 </div>
@@ -83,10 +162,10 @@
             <div class="js-timeline_item ag-timeline_item">
               <div class="ag-timeline-card_box">
                 <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">Date 3</div>
+                  <div class="ag-timeline-card_point">2020</div>
                 </div>
                 <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">.....</div>
+                  <div class="ag-timeline-card_meta">Season 11</div>
                 </div>
               </div>
               <div class="ag-timeline-card_item">
@@ -95,12 +174,15 @@
                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-11.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
                   </div>
                   <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">.....</div>
+                    <div class="ag-timeline-card_title">Season 11</div>
                     <div class="ag-timeline-card_desc">
                       Aenean imperdiet. Etiam ultricies
                       nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
                       Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-                      adipiscing sem neque sed ipsum.
+                      adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+                      hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
+                      sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget
+                      eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
                     </div>
                   </div>
                 </div>
@@ -111,10 +193,10 @@
             <div class="js-timeline_item ag-timeline_item">
               <div class="ag-timeline-card_box">
                 <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">abc</div>
+                  <div class="ag-timeline-card_meta">Season 10</div>
                 </div>
                 <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">Date 4</div>
+                  <div class="ag-timeline-card_point">2019</div>
                 </div>
               </div>
               <div class="ag-timeline-card_item">
@@ -123,11 +205,14 @@
                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-10.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
                   </div>
                   <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">def</div>
+                    <div class="ag-timeline-card_title">Season 10</div>
                     <div class="ag-timeline-card_desc">
                       Cum sociis natoque penatibus et magnis dis parturient
                       montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-                      pretium quis, sem. Nulla consequat massa quis enim.
+                      pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                      venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                      tincidunt. Cras dapibus. Vivamus elementum semper nisi.
                     </div>
                   </div>
                 </div>
@@ -138,10 +223,10 @@
             <div class="js-timeline_item ag-timeline_item">
               <div class="ag-timeline-card_box">
                 <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                  <div class="ag-timeline-card_point">Date 5</div>
+                  <div class="ag-timeline-card_point">2019</div>
                 </div>
                 <div class="ag-timeline-card_meta-box">
-                  <div class="ag-timeline-card_meta">xyz</div>
+                  <div class="ag-timeline-card_meta">Season 9</div>
                 </div>
               </div>
               <div class="ag-timeline-card_item">
@@ -150,14 +235,261 @@
                     <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-9.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
                   </div>
                   <div class="ag-timeline-card_info">
-                    <div class="ag-timeline-card_title">xyz</div>
+                    <div class="ag-timeline-card_title">Season 9</div>
                     <div class="ag-timeline-card_desc">
                       Vivamus elementum semper nisi. Aenean vulputate eleifend
                       tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                      nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
+                      nisi vel augue. Curabitur ullamcorper ultricies nisi.
                     </div>
                   </div>
                 </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+  
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 8</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2018</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-8.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 8</div>
+                    <div class="ag-timeline-card_desc">
+                      Donec quam felis, ultricies nec, pellentesque eu,
+                      pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                      venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                      tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+  
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2018</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 7</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-7.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 7</div>
+                    <div class="ag-timeline-card_desc">
+                      Quisque rutrum. Aenean imperdiet. Etiam ultricies
+                      nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                      Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+                      adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+                      hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+  
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 6</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2017</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-6.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 6</div>
+                    <div class="ag-timeline-card_desc">
+                      Vivamus elementum semper nisi. Aenean vulputate eleifend
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                      nulla ut metus varius laoreet. Quisque rutrum.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+  
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2017</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 5</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-5.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 5</div>
+                    <div class="ag-timeline-card_desc">
+                      Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                      venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                      tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                      nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
+                      nisi vel augue. Curabitur ullamcorper ultricies nisi.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+  
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 4</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2016</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-4.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 4</div>
+                    <div class="ag-timeline-card_desc">
+                      Nullam dictum felis eu pede mollis pretium. Integer
+                      tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                      nulla ut metus varius laoreet.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+  
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2016</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 3</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-3.png" class="ag-timeline-card_img" width="640" height="360" alt="" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 3</div>
+                    <div class="ag-timeline-card_desc">
+                      Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+                      Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
+                      adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+                      hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
+                      sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget
+                      eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+  
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 2</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2015</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png" class="ag-timeline-card_img" width="640" height="360" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 2</div>
+                    <div class="ag-timeline-card_desc">
+                      Aenean vulputate eleifend
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                      nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
+                      nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+  
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2015</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">Season 1</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_img-box">
+                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-1.png" class="ag-timeline-card_img" width="640" height="360" />
+                  </div>
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">Season 1</div>
+                    <div class="ag-timeline-card_desc">
+                      Donec pede justo, fringilla
+                      vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                      venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                      tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
+                      tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+                      Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
+
 </body>
 
 <footer>
