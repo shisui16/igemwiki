@@ -68,7 +68,6 @@ body {
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
-    text-fill-color: #6796a2;
     color: #6796a2;
   
     font-size: 80px;
@@ -241,13 +240,7 @@ body {
     padding: 20px 30px;
   }
   .ag-timeline-card_title {
-    display: none;
-    margin: 10px 0 0;
-  
-    font-family: 'ESL Legend', sans-serif;
-    font-weight: bold;
-    font-size: 28px;
-    color: #FF0;
+    display: none;    
   }
   .ag-timeline-card_desc {
     line-height: 1.45;
