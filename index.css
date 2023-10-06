@@ -5609,7 +5609,7 @@ container,
     z-index: 2;
     justify-content: center;
     align-items: center;
-
+}
 .modal-content {
     height: 220px;
     padding: 10px;
@@ -5624,4 +5624,14 @@ container,
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.404);
+}
+/*definition hover popup */
+.definition-popup {
+    display:none;
+    position: fixed;
+    background-color: #E4E2DB;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
