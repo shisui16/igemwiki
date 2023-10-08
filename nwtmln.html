@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="newtmlnstyle.css">
+    
+</head>
+<body>
+    
+    <script defer>
+
+        $(document).ready(function(){
+          $(".c1").click(function(){
+            $(".dbtl1").fadeIn().css("display", "inline-block");
+            $(".dbtl2").fadeOut().css("display", "none");
+            $(".dbtl3").fadeOut().css("display", "none");
+            
+            $(".dbtl4").fadeOut().css("display", "none");
+          });
+        });
+        
+        $(document).ready(function(){
+          $(".c2").click(function(){
+            $(".dbtl2").fadeIn().css("display", "inline-block");
+            $(".dbtl1").fadeOut().css("display", "none");
+            $(".dbtl3").fadeOut().css("display", "none");
+            $(".dbtl4").fadeOut().css("display", "none");
+            
+          });
+        });
+        
+        $(document).ready(function(){
+          $(".c3").click(function(){
+            $(".dbtl3").fadeIn().css("display", "inline-block");
+            $(".dbtl1").fadeOut().css("display", "none");
+            $(".dbtl2").fadeOut().css("display", "none");
+            $(".dbtl4").fadeOut().css("display", "none");
+            
+          });
+        });
+        
+        $(document).ready(function(){
+          $(".c4").click(function(){
+            $(".dbtl4").fadeIn().css("display", "inline-block");
+            $(".dbtl1").fadeOut().css("display", "none");
+            $(".dbtl2").fadeOut().css("display", "none");
+            $(".dbtl3").fadeOut().css("display", "none");
+            
+          });
+        });
+        
+            
+    </script>
+    
+
+
+
+
+    <div class="relative">
+        <img alt="helper-arrow" class="absolute -top-4 h-12 left-[160px] sm:top-0 sm:h-8 sm:left-[180px] md:h-12 md:left-[160px] lg:-top-2 lg:h-20 lg:left-[240px] xl:top-0 xl:h-auto xl:left-[360px]" src="https://static.igem.wiki/teams/4380/wiki/engineering/engineeringhelper.svg">
+        <div class="flex flex-col md:flex-row h-[670px] sm:h-[580px] md:h-[640px] lg:h-[600px] 2xl:h-[410px]">
+            <div class="flex flex-col md:h-[400px] scale-90">
+                <div class="flex flex-row">
+                    <div class="-left-[14px] lg:left-0 relative h-[100px] w-[114px] lg:h-[140px] lg:w-[160px] xl:h-[200px] xl:w-[228px] c1">
+                        <img alt="design-arrow" class="h-[100px] w-[114px] lg:h-[140px] lg:w-[160px] xl:h-[200px] xl:w-[228px] cursor-pointer absolute transition-opacity opacity-0" src="https://static.igem.wiki/teams/4380/wiki/engineering/design-arrow.svg">
+                        <img alt="design-arrow" class="h-[100px] w-[114px] lg:h-[140px] lg:w-[160px] xl:h-[200px] xl:w-[228px] cursor-pointer absolute transition-opacity opacity-100" src="https://static.igem.wiki/teams/4380/wiki/engineering/design-arrow-inactive.svg">
+                    </div>
+                    <div class="absolute z-10 mt-[100px] ml-[85px] lg:mt-[140px] lg:ml-[140px] xl:mt-[200px] xl:ml-[200px] -translate-x-1/2 -translate-y-1/2">
+                        <span class="font-jost-medium text-lg xl:text-3xl">
+                            ITERATION 1
+                        </span>
+                    </div>
+                    <div class="-left-[29px] relative h-[114px] w-[100px] lg:h-[160px] lg:w-[140px] xl:h-[228px] xl:w-[200px] c2">
+                        <img alt="build-arrow" class="h-[114px] w-[100px] lg:h-[160px] lg:w-[140px] xl:h-[228px] xl:w-[200px] cursor-pointer absolute transition-opacity opacity-0" src="https://static.igem.wiki/teams/4380/wiki/engineering/build-arrow.svg">
+                         <img alt="build-arrow" class="h-[114px] w-[100px] lg:h-[160px] lg:w-[140px] xl:h-[228px] xl:w-[200px] cursor-pointer absolute transition-opacity opacity-100" src="https://static.igem.wiki/teams/4380/wiki/engineering/build-arrow-inactive.svg">
+                     </div>
+                </div>
+                <div class="flex flex-row">
+                    <div class="-top-[29px] -left-[14px] lg:left-0 lg:-top-[41px] xl:-top-[57px] relative h-[114px] w-[100px] lg:h-[160px] lg:w-[140px] xl:h-[228px] xl:w-[200px] c3">
+                         <img alt="learn-arrow" class="h-[114px] w-[100px] lg:h-[160px] lg:w-[140px] xl:h-[228px] xl:w-[200px] cursor-pointer absolute transition-opacity opacity-0" src="https://static.igem.wiki/teams/4380/wiki/engineering/learn-arrow.svg">
+                        <img alt="learn-arrow" class="h-[114px] w-[100px] lg:h-[160px] lg:w-[140px] xl:h-[228px] xl:w-[200px] cursor-pointer absolute transition-opacity opacity-100" src="https://static.igem.wiki/teams/4380/wiki/engineering/learn-arrow-inactive.svg">
+                    </div>
+                    <div class="-left-[29px] -top-[15px] lg:-top-[21px] lg:-left-[29px] xl:-top-[29px] relative h-[100px] w-[114px] lg:h-[140px] lg:w-[160px] xl:h-[200px] xl:w-[228px] c4">
+                        <img alt="test-arrow" class="h-[100px] w-[114px] lg:h-[140px] lg:w-[160px] xl:h-[200px] xl:w-[228px] cursor-pointer absolute transition-opacity opacity-100" src="https://static.igem.wiki/teams/4380/wiki/engineering/test-arrow.svg">
+                        <img alt="test-arrow" class="h-[100px] w-[114px] lg:h-[140px] lg:w-[160px] xl:h-[200px] xl:w-[228px] cursor-pointer absolute transition-opacity opacity-0" src="https://static.igem.wiki/teams/4380/wiki/engineering/test-arrow-inactive.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="pl-2 relative max-w-[352px] sm:max-w-full sm:w-full h-full">
+                <div class="absolute transition-opacity opacity-0 invisible dbtl1">
+                    <span class="font-jost-medium text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-igem-black font-normal    ">
+                        Design
+                    </span>
+                    <div class="pt-2">
+
+                    </div>
+                    <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify undefined">
+                        For NanoFind system to work, our team designed several plastic binding peptide (PBP)-protein fusion proteins:
+                    </p>
+                    <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify pt-1">
+                        Cellulose binding domain + plastic binding peptide → for immobilization (Parts: 
+                        <a href="http://parts.igem.org/Part:BBa_K4380015" target="_blank" rel="noopener noreferrer" class="font-raleway-light text-xs sm:text-sm md:text-base underline text-igem-black font-normal    ">
+                            BBa_K4380015
+                        </a>
+                    
+                        <a href="http://parts.igem.org/Part:BBa_K4380017" target="_blank" rel="noopener noreferrer" class="font-raleway-light text-xs sm:text-sm md:text-base underline text-igem-black font-normal    ">
+                            BBa_K4380017
+                        </a>
+                    )
+                </p>
+                    <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify pt-1">
+                        Green fluorescent protein + plastic binding peptide → for signal report (Parts: 
+                        <a href="http://parts.igem.org/Part:BBa_K4380016" target="_blank" rel="noopener noreferrer" class="font-raleway-light text-xs sm:text-sm md:text-base underline text-igem-black font-normal    ">
+                            BBa_K4380016
+                        </a>
+                         <a href="http://parts.igem.org/Part:BBa_K4380018" target="_blank" rel="noopener noreferrer" class="font-raleway-light text-xs sm:text-sm md:text-base underline text-igem-black font-normal    ">
+                            BBa_K4380018
+                        </a>
+                        )
+                    </p>
+                    <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify pt-1">
+                        These two proteins would form a "sandwich" complex - two plastic binding peptides would surround the nanoplastic particle, present in the water sample, detect and differentiate frequently used plastics
+                         <span class="font-raleway-medium text-xs sm:text-sm md:text-base text-igem-dark-blue font-bold    ">
+                            in real time
+                        </span>
+                    </p>
+                </div>
+                    <div class="absolute transition-opacity opacity-0 invisible dbtl2">
+                        <span class="font-jost-medium text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-igem-black font-normal    ">
+                            Build
+                        </span>
+                        <div class="pt-2">
+
+                        </div>
+                        <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify undefined">
+                            With the aim to test different concentrations of nanoplastic and the specificity of the detection tool, high purified protein amounts are needed. Proteins were modeled by using 
+                            <i>Alphafold</i>, DNA sequences were optimized with <i>Twist</i> software. After synthesis, protein coding sequences were cloned into pet29b(+) plasmid expression vector:
+                        </p>
+                    
+                        <ul class="flex flex-col list-none gap-4 undefined">
+                            <li class="flex">
+                                <img alt="" src="https://static.igem.wiki/teams/4380/wiki/list/listitemtriangle.svg" class="h-[25px] w-[25px]">
+                                <span class="ml-2">
+                                    <a href="http://parts.igem.org/Part:BBa_K4380015" target="_blank" rel="noopener noreferrer" class="font-raleway-light text-xs sm:text-sm md:text-base underline text-igem-black font-normal    ">
+                                    BBa_K4380015
+                                     </a>
+                                    <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify undefined">
+                                        CBD and LCI peptide fusion protein 
+                                        <span class="font-raleway-medium text-xs sm:text-sm md:text-base text-igem-dark-blue font-bold    ">
+                                            CBD-LCI
+                                        </span>
+                                        </p>
+                                    </span>
+                            </li>
+                            <li class="flex">
+                                <img alt="" src="https://static.igem.wiki/teams/4380/wiki/list/listitemtriangle.svg" class="h-[25px] w-[25px]">
+                                <span class="ml-2">
+                                    <a href="http://parts.igem.org/Part:BBa_K4380016" target="_blank" rel="noopener noreferrer" class="font-raleway-light text-xs sm:text-sm md:text-base underline text-igem-black font-normal    ">
+                                        BBa_K4380016
+                                    </a> 
+                                    <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify undefined">eGFP and LCI peptide fusion protein (
+                                        <span class="font-raleway-medium text-xs sm:text-sm md:text-base text-igem-dark-blue font-bold    ">
+                                            eGFP-LCI
+                                        </span>
+                                 </p>
+                                </span>
+                            </li>
+                        
+                            <li class="flex">
+                                <img alt="" src="https://static.igem.wiki/teams/4380/wiki/list/listitemtriangle.svg" class="h-[25px] w-[25px]">
+                                <span class="ml-2"> 
+                                    <a href="http://parts.igem.org/Part:BBa_K4380017" target="_blank" rel="noopener noreferrer" class="font-raleway-light text-xs sm:text-sm md:text-base underline text-igem-black font-normal    ">
+                                        BBa_K4380017
+                                    </a>
+                                    <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify undefined">CBD and TA2 peptide fusion protein (
+                                        <span class="font-raleway-medium text-xs sm:text-sm md:text-base text-igem-dark-blue font-bold    ">
+                                        CBD-TA2
+                                        </span>
+                                    </p>
+                                </span>
+                            </li>
+                        
+                            <li class="flex">
+                                <img alt="" src="https://static.igem.wiki/teams/4380/wiki/list/listitemtriangle.svg" class="h-[25px] w-[25px]">
+                                <span class="ml-2">
+                                    <a href="http://parts.igem.org/Part:BBa_K4380018" target="_blank" rel="noopener noreferrer" class="font-raleway-light text-xs sm:text-sm md:text-base underline text-igem-black font-normal    ">
+                                     BBa_K4380018
+                                    </a>
+                                    <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify undefined">eGFP and TA2 peptide fusion protein (
+                                        <span class="font-raleway-medium text-xs sm:text-sm md:text-base text-igem-dark-blue font-bold    ">
+                                            eGFP-TA2
+                                        </span>
+                                    </p>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                
+                    <div class="absolute transition-opacity opacity-0 invisible dbtl4">
+                        <span class="font-jost-medium text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-igem-black font-normal    ">
+                        Learn and improve
+                        </span>
+                        <div class="pt-2">
+
+                        </div>
+                        <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify undefined">
+                         After protein synthesis we found out that target peptides attached to the cellulose binding domain show different SDS-PAGE band lengths and our green fluorescent protein fusion proteins are mostly found in insoluble fraction. For this, we needed to optimize recombinant protein production and solubility by using different inductor concentrations, and changing growing conditions.
+                        </p>
+                    </div>
+                
+                    <div class="absolute transition-opacity opacity-100 dbtl3">
+                        <span class="font-jost-medium text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-igem-black font-normal    ">
+                            Test
+                        </span>
+                    
+                        <div class="pt-2">
+
+                        </div>
+                        <p class="font-raleway-medium text-xs sm:text-sm md:text-base font-light text-justify undefined">
+                        To obtain a high-yield expression of recombinant protein, the synthesis was performed by using <i>E. coli</i> BL21 (DE3) strain. Peptide-CBD fusion proteins showed sufficient recombinant protein synthesis, but some nonspecific bands were identified when analyzing SDS-PAGE gel image. In a meantime GFP-peptide fusion proteins showed low solubility and the majority of the protein formed inclusion bodies.
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+</body> 
+</html>   
