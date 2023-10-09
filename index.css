@@ -5695,6 +5695,11 @@ container,
 .square-container{
     width: 730px;
     height: 730px;
-    top: 10%;
+    
 }
 
+@media (.min-vh-100) {
+    .square-container {
+        width: 100%;
+    }
+}
