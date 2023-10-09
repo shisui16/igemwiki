@@ -1,0 +1,143 @@
+{
+    font-family: "Helvetica", "Arial", sans-serif;
+  }
+  
+  #pyramid {
+    width: 730px;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    background:rgb(245 243 240 / 0%);
+    overflow: visible;
+    margin-bottom: 30pxx;
+    position: relative;
+    height: 320px;
+    box-sizing: content-box;
+  }
+  #pyramid div.step {
+    z-index: 1;
+    position: relative;
+    height: 0;
+    border-bottom: solid;
+    border-left: solid transparent;
+    border-right: solid transparent;
+    cursor: pointer;
+  }
+  #pyramid div.step span {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px -1px rgba(20, 15, 10, 0.6);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    min-width: 54px;
+  }
+  #pyramid div.step.step1 {
+    border-bottom-color: #bbb;
+    border-bottom-width: 64px;
+    border-left-width: 74px;
+    border-right-width: 74px;
+    width: 2px;
+    margin-left: 292px;
+  }
+  #pyramid div.step.step2 {
+    border-bottom-color: #aaa;
+    border-bottom-width: 60.333px;
+    border-left-width: 80px;
+    border-right-width: 80px;
+    width: 150px;
+    margin-left: 211px;
+    
+  }
+  #pyramid div.step.step3 {
+    border-bottom-color: #999;
+    border-bottom-width: 60.333px;
+    border-left-width: 80px;
+    border-right-width: 80px;
+    width: 308px;
+    margin-left: 132px;
+    
+  }
+  #pyramid div.step.step4 {
+    border-bottom-color: #888;
+    border-bottom-width: 60.333px;
+    border-left-width: 80px;
+    border-right-width: 80px;
+    width: 466px;
+    margin-left: 53px;
+    
+  }
+  #pyramid div.step.step5 {
+    border-bottom-color: #777;
+    border-bottom-width: 60.333px;
+    border-left-width: 80px;
+    border-right-width: 80px;
+    width: 625px;
+    margin-left: -26px;
+    
+  }
+  
+  #pyramid div.step:hover {
+    border-bottom-color: #fff;
+  }
+  #pyramid div.popupFeedback {
+    box-shadow: 0, 1px, 3px, 0, rgba(0, 0, 0, 0.55);
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    width: 450px;
+    min-height: 60%;
+    max-height: 80%;
+    z-index: 3;
+    text-align: center;
+    padding: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #F2F2F2;
+    margin-left: 40%;
+  }
+  #pyramid div.popupFeedback > div {
+    width: 100%;
+    padding: 12px;
+  }
+  #pyramid div.popupFeedback p, #pyramid div.popupFeedback h3 {
+    width: 100%;
+    text-align: left;
+  }
+  #pyramid div.popupFeedback h3 {
+    margin-top: 0;
+    width: 400px;
+  }
+  #pyramid div.popupFeedback ol, #pyramid div.popupFeedback ul {
+    text-align: left;
+  }
+  #pyramid div.popupFeedback button {
+    transform: translate(-100%, 0%);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 34px;
+    height: 34px;
+    border-top-right-radius: 1px;
+    color: #fff;
+    font-size: 22px;
+    background: #aeb0b3;
+  }
+  #pyramid div.popupFeedback.visible {
+    display: block;
+  }
+  #pyramid div.popupFeedbackShadow {
+    opacity: 0.6;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin-left: 15%;
+    margin-right: 20%;
+  }
