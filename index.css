@@ -5692,3 +5692,9 @@ container,
     float: left;
 }
 
+.square-container{
+    width: 730px;
+    height: 730px;
+    top: 10%;
+}
+
