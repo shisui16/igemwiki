@@ -127,8 +127,8 @@
           <br>
           <p>
 
-            Lorem <span class="word1" data-definition="This is the definition of the word."><u>domain</u></span> ipsum dolor sit amet, consectetur adipiscing elit.
-            In non risus sollicitudin, pharetra orci non, cursus justo.
+            Lorem <span class="wordhover" data-definition-hover="This is the definition of the word."><u>domain (hover definition)</u></span> ipsum dolor sit amet, consectetur adipiscing elit.
+              In non risus sollicitudin<span class="word1" data-definition="This is the definition of the word."><u> apparatus (box definition)</u></span> pharetra orci non, cursus justo.
             Aenean pulvinar consequat est sit amet cursus.
             In fermentum massa sit amet cursus mattis.
             Integer eget tellus vitae nunc pulvinar sollicitudin.
@@ -273,6 +273,10 @@
       
     </div>
   </div>
+  <div class="definition-popup" id="wordDefinitionPopup"></div>
+    <script src="defhover.js"></script>
+  <script src="definitionbox.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </body>
 
 <footer>
@@ -381,6 +385,5 @@
         });
       </script>
  <!--definition-->
-  <script src="definitionbox.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  
 </html>
