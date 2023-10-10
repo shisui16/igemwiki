@@ -5679,6 +5679,24 @@ container,
     display:none;
 }
 
+.dbtl_2,
+.dbtl_3,
+.dbtl_4 {
+  display:none;
+}
+.dbtl_2 {
+    display:none;
+}
+
+.dbtl-2,
+.dbtl-3,
+.dbtl-4 {
+  display:none;
+}
+.dbtl-2 {
+    display:none;
+}
+
 .container3{
     display:flow;
 }
